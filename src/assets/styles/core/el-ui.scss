@@ -514,3 +514,7 @@ html.dark .el-card {
   box-shadow: none !important;
   outline: none !important;
 }
+
+[data-box-mode='shadow-mode'] .art-card {
+  box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15) !important;
+}

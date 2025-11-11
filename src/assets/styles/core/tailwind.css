@@ -7,6 +7,25 @@
   --art-color: #ffffff;
   --theme-color: var(--main-color);
 
+  --xoj-brown-100: #fafaf9;
+  --xoj-brown-200: #a8a29e;
+  --xoj-brown-400: #66615b;
+  --xoj-brown-500: #4a3d34;
+  --xoj-brown-600: #3f2f2b;
+
+  --xoj-yellow-400: #facc15;
+  --xoj-yellow-500: #ffd400;
+
+  --xoj-rose: #f43f5e;
+  --xoj-red: #ef4444;
+  --xoj-green: #16a34a;
+  --xoj-sky: #0ea5e9;
+  --xoj-orange: #f97316;
+  --xoj-purple: #9333ea;
+  --xoj-blue: #082f49;
+  --xoj-gray: #d1d5db;
+  --xoj-slate: #64748b;
+
   /* Theme Colors - OKLCH Format */
   --art-primary: oklch(0.7 0.23 260);
   --art-secondary: oklch(0.72 0.19 231.6);

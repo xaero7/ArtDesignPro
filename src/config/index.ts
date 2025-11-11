@@ -91,10 +91,10 @@ const appConfig: SystemConfig = {
     },
     {
       theme: MenuThemeEnum.DARK,
-      background: '#191A23',
+      background: 'var(--xoj-brown-500)',
       systemNameColor: '#D9DADB',
-      iconColor: '#BABBBD',
-      textColor: '#BABBBD',
+      iconColor: 'var(--xoj-brown-200)',
+      textColor: 'var(--xoj-brown-200)',
       img: configImages.menuStyles.dark
     },
     {

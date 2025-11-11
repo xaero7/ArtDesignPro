@@ -30,7 +30,7 @@ export const SETTING_DEFAULT_CONFIG = {
   /** 菜单类型 */
   menuType: MenuTypeEnum.LEFT,
   /** 菜单展开宽度 */
-  menuOpenWidth: 230,
+  menuOpenWidth: 260,
   /** 菜单是否展开 */
   menuOpen: true,
   /** 双菜单是否显示文本 */
@@ -40,9 +40,9 @@ export const SETTING_DEFAULT_CONFIG = {
   /** 系统主题模式 */
   systemThemeMode: SystemThemeEnum.AUTO,
   /** 菜单风格 */
-  menuThemeType: MenuThemeEnum.DESIGN,
+  menuThemeType: MenuThemeEnum.DARK,
   /** 系统主题颜色 */
-  systemThemeColor: AppConfig.systemMainColor[0],
+  systemThemeColor: AppConfig.systemMainColor[5],
   /** 是否显示菜单按钮 */
   showMenuButton: true,
   /** 是否显示快速入口 */
@@ -52,11 +52,11 @@ export const SETTING_DEFAULT_CONFIG = {
   /** 是否显示面包屑 */
   showCrumbs: true,
   /** 是否显示工作台标签 */
-  showWorkTab: true,
+  showWorkTab: false,
   /** 是否显示语言切换 */
   showLanguage: true,
   /** 是否显示进度条 */
-  showNprogress: false,
+  showNprogress: true,
   /** 是否显示设置引导 */
   showSettingGuide: true,
   /** 是否显示节日文本 */
@@ -74,13 +74,13 @@ export const SETTING_DEFAULT_CONFIG = {
   /** 是否加载节日烟花 */
   holidayFireworksLoaded: false,
   /** 边框模式 */
-  boxBorderMode: true,
+  boxBorderMode: false,
   /** 页面过渡效果 */
   pageTransition: 'slide-left',
   /** 标签页样式 */
   tabStyle: 'tab-default',
   /** 自定义圆角 */
-  customRadius: '0.75',
+  customRadius: '0.25',
   /** 容器宽度 */
   containerWidth: ContainerWidthEnum.FULL,
   /** 节日日期 */
